@@ -7,10 +7,9 @@
 
 #include <iostream>
 
-class Lzss {
-public:
-    static void print() {std::cout << "Hello, World!" << std::endl;}
-};
-
+namespace Lzss
+{
+    void print();
+}
 
 #endif //LZSS_ENCODER_CPP_LZSS_H

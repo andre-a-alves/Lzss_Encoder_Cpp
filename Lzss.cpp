@@ -3,3 +3,9 @@
 //
 
 #include "Lzss.h"
+
+void Lzss::print()
+{
+        std::cout << "This worked" << std::endl;
+}
+
