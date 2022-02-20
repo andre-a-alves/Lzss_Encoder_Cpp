@@ -3,4 +3,4 @@ project(Lzss_Encoder_Cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Lzss_Encoder_Cpp main.cpp)
+add_executable(Lzss_Encoder_Cpp main.cpp Lzss.cpp Lzss.h)
