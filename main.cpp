@@ -1,8 +1,7 @@
-#include <iostream>
 #include "Lzss.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    Lzss::print();
+    Lzss::encode("sam2.txt", "encoded.txt");
+    Lzss::decode("encoded.txt", "decoded.txt");
     return 0;
 }
