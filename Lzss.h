@@ -3,6 +3,8 @@
  *
  * @brief Declares the namespace for the LZSS functions.
  *
+ * @version 21 Feb 2022
+ *
  * @author Andre Alves
  * Contact: andre@alves.me
  *
