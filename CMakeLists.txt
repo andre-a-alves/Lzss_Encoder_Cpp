@@ -12,7 +12,7 @@ include_directories(
         .
         ${GTKMM_INCLUDE_DIRS}  )
 
-add_executable(Lzss_Encoder_Cpp main.cpp Lzss.cpp Lzss.h)
+add_executable(Lzss_Encoder_Cpp main.cpp Lzss.cpp Lzss.h GuiWindow.cpp GuiWindow.h)
 
 target_link_libraries(Lzss_Encoder_Cpp
         ${GTKMM_LIBRARIES}  )
