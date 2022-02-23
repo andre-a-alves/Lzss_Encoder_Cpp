@@ -1,7 +1,9 @@
-#include "Lzss.h"
+#include <gtkmm/application.h>
+#include "GuiWindow.h"
 
-int main() {
-    Lzss::encode("samComplete.txt", "encoded.txt");
-    Lzss::decode("encoded.txt", "decoded.txt");
-    return 0;
+int main(int argc, char* argv[])
+{
+    auto app = Gtk::Application::create(argc, argv, "edu.haw.andre-a-alves.LZSS-encoder");
+    GuiWindow GuiWindow;
+    return app->run(GuiWindow);
 }
