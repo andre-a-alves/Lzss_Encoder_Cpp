@@ -9,6 +9,34 @@ This program will take an input file and compress it using an LZSS encoding meth
 
 This has been written, compiled, and tested in Linux.
 
+## Use
+
+This program can either be compiled or if you are using ax AMD64 Linux machine, you can run the [executable](Lzss_encoder_Cpp).
+
+When the window opens, click on `Choose File` to choose the file to encrypt(compress) or decrypt(decompress).
+
+![](img/app.png)
+
+Next, choose the input file.
+
+![](img/chooseFile.png)
+
+Once the file is chosen, click on either `Encode` or `Decode`.
+In the dialog that pops up, choose how you want to save the output file and click `Save`.
+
+![](img/saveLocation.png)
+
+The program will give you a success message once encoding or decoding is complete.
+
+![](img/Success.png)
+
+### Sample
+
+The below image gives the example of compressing _A Tale of Two Cities_.
+The more repetition contained within a file, the better compression that can be accomplished with this method.
+
+![](img/TaleOfTwoCities.png)
+
 ## LZSS Implementation Particulars
 
 Wikipedia contains information on the [basics of LZSS](https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Storer%E2%80%93Szymanski).
