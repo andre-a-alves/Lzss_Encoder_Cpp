@@ -1,6 +1,14 @@
-//
-// Created by andre on 2/22/22.
-//
+/**
+ * @file GuiWindow.h
+ *
+ * @brief Declares the GuiWindow class.
+ *
+ * @version 23 Feb 2022
+ *
+ * @author Andre Alves
+ * Contact: andre@alves.me
+ *
+ */
 
 #ifndef LZSS_ENCODER_CPP_GUIWINDOW_H
 #define LZSS_ENCODER_CPP_GUIWINDOW_H

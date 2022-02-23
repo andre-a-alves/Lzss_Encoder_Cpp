@@ -1,5 +1,5 @@
 /**
- * @file Lzss.c
+ * @file Lzss.cpp
  *
  * @brief Contains the functions to perform LZSS encoding of an input file. The program is designed to look for tokens
  * with a maximum size of 15 bytes and looks back up to 4095 bytes to find a matching pattern.

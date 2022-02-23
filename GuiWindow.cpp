@@ -1,6 +1,14 @@
-//
-// Created by andre on 2/22/22.
-//
+/**
+ * @file GuiWindow.cpp
+ *
+ * @brief Contains the member functions of the GuiWindow class.
+ *
+ * @version 23 Feb 2022
+ *
+ * @author Andre Alves
+ * Contact: andre@alves.me
+ *
+ */
 #include <iostream>
 #include "GuiWindow.h"
 #include "Lzss.h"

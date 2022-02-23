@@ -1,3 +1,15 @@
+/**
+ * @file main.cpp
+ *
+ * @brief Contains the main() function that runs the application.
+ *
+ * @version 23 Feb 2022
+ *
+ * @author Andre Alves
+ * Contact: andre@alves.me
+ *
+ */
+
 #include <gtkmm/application.h>
 #include "GuiWindow.h"
 
